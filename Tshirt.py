@@ -36,8 +36,8 @@ def colors_frequency(colors=colors):
     variance = sum((frequency - colors_frequency_mean) ** 2 for frequency in colors_frequency.values()) / len(colors_frequency)
     return variance
 
-# Find the probability that a color chosen at random is red
-probability_red = colors.count('BLUE') / len(colors)
+# The probability that a color chosen at random is red
+probability_red = colors.count('RED') / len(colors)
 
 
 # Print the results
