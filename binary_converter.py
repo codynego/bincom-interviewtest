@@ -28,3 +28,5 @@ def binary_to_decimal(binary):
     return decimal
 
 print(binary_to_decimal(random_binary()))
+
+# Write a program to sum the first 50 fibonacci sequence
